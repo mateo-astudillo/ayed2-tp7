@@ -20,10 +20,10 @@ public class Vertex {
 		return n;
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (obj instanceof Vertex v)
-			return this.name.equals(v.getName());
-		return false;
-	}
+	// @Override
+	// public boolean equals(Object obj) {
+	// 	if (obj instanceof Vertex v)
+	// 		return this.name.equals(v.getName());
+	// 	return false;
+	// }
 }
